@@ -26,13 +26,13 @@ type ShieldResponse struct {
 
 func Handler(w http.ResponseWriter, r *http.Request) {
 
-	var label = "Application currently"
+	var label = "Application is currently"
 
-	currentStateMessage := "is DESTROYED"
+	currentStateMessage := "DESTROYED"
 	currentColor := "red"
 
 	if codeDeployWebsiteSeemsToExist() {
-		currentStateMessage = "exists"
+		currentStateMessage = "AVAILABLE"
 		currentColor = "green"
 	}
 
