@@ -1,4 +1,4 @@
-package handler
+package contracts
 
 // ShieldResponse is the payload that Shields.io expects to receive for custom shields endpoints:
 // https://shields.io/endpoint

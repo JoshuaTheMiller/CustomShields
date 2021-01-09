@@ -3,6 +3,8 @@ package handler
 import (
 	"encoding/json"
 	"net/http"
+
+	"github.com/JoshuaTheMiller/badges.joshuamiller.net/contracts"
 )
 
 func codeDeployWebsiteSeemsToExist() bool {
@@ -31,7 +33,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		currentColor = "green"
 	}
 
-	response := ShieldResponse{
+	response := contracts.ShieldResponse{
 		SchemaVersion: 1,
 		Label:         label,
 		Message:       currentStateMessage,
