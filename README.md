@@ -1,5 +1,7 @@
 # [badges.joshuamiller.net](https://badges.joshuamiller.net/)
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/JoshuaTheMiller/badges.joshuamiller.net)](https://goreportcard.com/report/github.com/JoshuaTheMiller/badges.joshuamiller.net)
+
 A [Vercel](https://vercel.com/) Project containing Functions to support custom [Shields](https://shields.io/) for my various repositories. An article will most likely be coming out soon, so follow me on Medium if you want a notification about it!
 
 [![Medium](https://img.shields.io/badge/Follow%20on-Medium-lightgrey)](https://medium.com/@JoshuaTheMiller)
