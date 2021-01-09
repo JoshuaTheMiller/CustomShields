@@ -17,13 +17,8 @@ func codeDeployWebsiteSeemsToExist() bool {
 	return true
 }
 
-type ShieldResponse struct {
-	SchemaVersion int    `json:"schemaVersion"`
-	Label         string `json:"label"`
-	Message       string `json:"message"`
-	Color         string `json:"color"`
-}
-
+// Handler is implemented per the Vercel Function spec:
+// https://vercel.com/docs/serverless-functions/supported-languages#go
 func Handler(w http.ResponseWriter, r *http.Request) {
 
 	var label = "Application is currently"
